@@ -12,7 +12,8 @@ pipeline {
     }
 
     triggers {
-        pollSCM('H/2 * * * *')
+        githubPush()                // instant build from the GitHub webhook (needs the tunnel)
+        pollSCM('H/2 * * * *')      // fallback if the tunnel is off
     }
 
     options {
