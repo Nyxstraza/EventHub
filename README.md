@@ -55,6 +55,7 @@ TAG=<previous build number> docker compose up -d --no-build
 
 ## Team
 | Member | Role |
+|---|---|
 | Barazon, Angelo P. | Project Lead / Scrum Master |
 | Laxamana, Karl Kristian Kenneth N.  | DevOps / CI-CD |
 | Villanueva, Martin M.  | Infrastructure |
